@@ -21,7 +21,7 @@ const LoginPage = (props) =>
         };
     const onSuccessResponse = (eventArgs) => 
     {
-        handleAuthorizationToken(eventArgs.data.token);
+        handleAuthorizationToken(eventArgs.data);
         setIsLoginValid(true);
     }
     const onFailureResponse = (eventArgs) =>

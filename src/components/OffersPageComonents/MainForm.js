@@ -41,19 +41,19 @@ const MainForm = (props) =>
         <Form.Group controlId="zoneSelect" className = "formElement">
             <Form.Label>Miasto</Form.Label>
             <Form.Control as="select" value = {getUserInputs.Zone} onChange = {onZoneSelectChange}>
-            {zoneSelectOptions.map(zoneOption => <option>{zoneOption}</option>)}
+            {zoneSelectOptions.map(zoneOption => <option key={zoneOption}>{zoneOption}</option>)}
             </Form.Control>
         </Form.Group>
         <Form.Group controlId="offerSelect" className = "formElement">
             <Form.Label>Typ ogłoszenia</Form.Label>
             <Form.Control as="select" multiple value = {getUserInputs.OfferTypes} onChange = {onOfferTypeSelectChange}>
-            {offerTypeSelectOptions.map(offerTypeOption => <option>{offerTypeOption}</option>)}
+            {offerTypeSelectOptions.map(offerTypeOption => <option key={offerTypeOption}>{offerTypeOption}</option>)}
             </Form.Control>
         </Form.Group>
         <Form.Group controlId="propertyTypeSelect" className = "formElement">
             <Form.Label>Typ Oferty</Form.Label>
             <Form.Control as="select" multiple value = {getUserInputs.PropertyTypes} onChange = {onPropertyTypeSelectChange}>
-            {propertyTypeSelectOptions.map(propertyTypeOption => <option>{propertyTypeOption}</option>)}
+            {propertyTypeSelectOptions.map(propertyTypeOption => <option key={propertyTypeOption}>{propertyTypeOption}</option>)}
             </Form.Control>
         </Form.Group>
         <Form.Group style = {{marginTop: "40px"}} controlId="ControlSelect4" className = "formElement">
