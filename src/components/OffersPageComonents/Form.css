@@ -1,0 +1,33 @@
+.formElement
+{
+    float: left;
+    margin: 10px;
+}
+Form.Group
+{
+    float: left;
+    margin: 10px;
+}
+
+#topForm
+{
+    height: 130px;
+    background-color: #F0F0F0;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+.dateWidgetButton
+{
+    width: 45px;
+    height: 25px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    padding: 0px 0px;
+}
+#bottomForm
+{
+    height: 40px;
+}
+#dateWidgetFormElement
+{
+    margin-bottom: 5px;
+}

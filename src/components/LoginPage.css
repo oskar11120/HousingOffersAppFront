@@ -1,0 +1,15 @@
+.LoginForm
+{
+    padding: 20px;
+}
+
+.ErrorMessage
+{
+    color: red;
+    display: block;
+}
+.SucessMessage
+{
+    color: green;
+    display: block;
+}
